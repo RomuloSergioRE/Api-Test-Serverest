@@ -59,9 +59,9 @@ A pasta `environment/` contém os arquivos de ambiente utilizados pelas coleçõ
 | Nome        | Valor exemplo                      | Descrição                       |
 | ----------- | ---------------------------------- | ------------------------------- |
 | `BASE_URL`   | `https://jsonplaceholder.typicode.com`   | URL base da API em ambiente dev |
-| `Token`   | ``   | Token para autenticação do user|
-| `ID_PRODUCT`   | ``   | Variavel usado para guardar o valor do id do produto |
-| `ID_USER`   | ``   | Variavel usado para guardar o valor do id do usuario |
+| `Token`   | `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...`   | Token para autenticação do user|
+| `ID_PRODUCT`   | `0uxuPY0cbmQhpEz1`   | Variavel usado para guardar o valor do id do produto |
+| `ID_USER`   | `DxgiPK0cbmQhaEp7`   | Variavel usado para guardar o valor do id do usuario |
 
 
 Para carregar o ambiente no Postman:
