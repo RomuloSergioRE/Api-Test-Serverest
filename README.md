@@ -78,11 +78,9 @@ A pasta `environment/` contém os arquivos de ambiente utilizados pelas coleçõ
 | ------ | ----------------------------------------- | ---------------------------------------- | ------------------------------------------------ |
 | CT-001 | Listar usuários                           | Listar usuários cadastrados              | Lista de usuários em JSON (Status Code: 200)     |
 | CT-002 | Buscar usuário por ID                     | Buscar usuário pelo ID                   | Dados do usuário do ID (Status Code: 200)        |
-| CT-003 | Buscar usuário ID inválido                | Buscar usuário pelo ID inválido          | O ID deve ter 16 caracteres (Status Code: 400)   |
-| CT-004 | Cadastrar usuário como ADM                | Cadastrar um usuário como ADM            | Usuário cadastrado com ID (Status Code: 201)     |
-| CT-005 | Cadastrar usuário ADM com email existente | Cadastrar usuário com email já existente | Email já utilizado (Status Code: 400)            |
-| CT-006 | Alterar dados do usuário                  | Alterar os dados do meu usuário          | Os dados foram alterados (Status Code: 200)      |
-| CT-007 | Excluir usuário                           | Excluir um usuário                       | Registro excluído com sucesso (Status Code: 200) |
+| CT-003 | Cadastrar usuário como ADM                | Cadastrar um usuário como ADM            | Usuário cadastrado com ID (Status Code: 201)     |
+| CT-004 | Alterar dados do usuário                  | Alterar os dados do meu usuário          | Os dados foram alterados (Status Code: 200)      |
+| CT-005 | Excluir usuário                           | Excluir um usuário                       | Registro excluído com sucesso (Status Code: 200) |
 
 ### 3️⃣ Funcionalidades do Produto
 
@@ -90,12 +88,10 @@ A pasta `environment/` contém os arquivos de ambiente utilizados pelas coleçõ
 | ------ | -------------------------------- | -------------------------------------------------------- | ----------------------------------------------------- |
 | CT-001 | Listar produtos                  | Listar produtos cadastrados                              | Lista de produtos em JSON (Status Code: 200)          |
 | CT-002 | Buscar produto por ID            | Buscar produto por ID                                    | Produto do ID (Status Code: 200)                      |
-| CT-003 | Buscar produto por ID inválido   | Buscar produto por ID inválido                           | Produto não encontrado (Status Code: 400)             |
-| CT-004 | Cadastrar produto (admin)        | Cadastrar um produto (usuário deve ser admin)            | Produto cadastrado (Status Code: 201)                 |
-| CT-005 | Cadastrar produto nome duplicado | Cadastrar produto com nome que já foi cadastrado (admin) | Já existe um produto com esse nome (Status Code: 400) |
-| CT-006 | Cadastrar produto usuário normal | Cadastrar produto com usuário não admin                  | Rota exclusiva para admin (Status Code: 403)          |
-| CT-007 | Alterar dados do produto         | Alterar dados do produto (admin)                         | Alterado com sucesso (Status Code: 200)               |
-| CT-008 | Excluir produto                  | Excluir produto pelo ID (admin)                          | Registro excluído com sucesso (Status Code: 200)      |
+| CT-003 | Cadastrar produto                | Cadastrar um produto (usuário deve ser admin)            | Produto cadastrado (Status Code: 201)                 |
+| CT-004 | Cadastrar produto nome duplicado | Cadastrar produto com nome que já foi cadastrado (admin) | Já existe um produto com esse nome (Status Code: 400) |
+| CT-005 | Alterar dados do produto         | Alterar dados do produto (admin)                         | Alterado com sucesso (Status Code: 200)               |
+| CT-006 | Excluir produto                  | Excluir produto pelo ID (admin)                          | Registro excluído com sucesso (Status Code: 200)      |
 
 
 Para carregar o ambiente no Postman:
