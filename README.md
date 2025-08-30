@@ -63,6 +63,12 @@ A pasta `environment/` contém os arquivos de ambiente utilizados pelas coleçõ
 | `ID_PRODUCT`   | `0uxuPY0cbmQhpEz1`   | Variavel usado para guardar o valor do id do produto |
 | `ID_USER`   | `DxgiPK0cbmQhaEp7`   | Variavel usado para guardar o valor do id do usuario |
 
+Para carregar o ambiente no Postman:
+
+1. Vá até **Environments > Import**
+2. Selecione o arquivo `Api-Serverest-environment.postman_environment.json`
+3. Ative o ambiente desejado no canto superior direito da interface
+
 ## Suíte de Testes Automatizados – Sistema QA
 
 ### 1️⃣ Funcionalidades do Login
@@ -92,14 +98,6 @@ A pasta `environment/` contém os arquivos de ambiente utilizados pelas coleçõ
 | CT-004 | Cadastrar produto nome duplicado | Cadastrar produto com nome que já foi cadastrado (admin) | Já existe um produto com esse nome (Status Code: 400) |
 | CT-005 | Alterar dados do produto         | Alterar dados do produto (admin)                         | Alterado com sucesso (Status Code: 200)               |
 | CT-006 | Excluir produto                  | Excluir produto pelo ID (admin)                          | Registro excluído com sucesso (Status Code: 200)      |
-
-
-Para carregar o ambiente no Postman:
-
-1. Vá até **Environments > Import**
-2. Selecione o arquivo `Api-Serverest-environment.postman_environment.json`
-3. Ative o ambiente desejado no canto superior direito da interface
-
 
 ## 🧪 Executando os Testes Manualmente
 
