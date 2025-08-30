@@ -29,8 +29,6 @@ Api - Serverest/
 │   └── Api - Serverest.postman_collection.json   
 ├── environment/            
 │   └── Api-post-environment.postman_environment.json
-├── PlanoDeTeste/             
-│   └── readmePlanoDeTeste.md
 └── README.md       
 ```
 
